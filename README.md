@@ -2,4 +2,4 @@
 
 To learn about the Data Structure and Algorithms in Swift language.
 
-* Linked List
+* Linked List (Insertion & Deletion)
