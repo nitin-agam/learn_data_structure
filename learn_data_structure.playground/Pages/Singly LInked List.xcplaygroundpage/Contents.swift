@@ -1,4 +1,5 @@
 
+// ***************** Singly Linked List *********************
 
 // A class to hold the information for an element
 class Node<T>: CustomStringConvertible, Equatable {
@@ -76,6 +77,12 @@ extension LinkedList {
             count += 1
         }
         return count
+    }
+    
+    // to remove all the nodes from the list
+    mutating func removeAll() {
+        head = nil
+        tail = nil
     }
 }
 
