@@ -18,12 +18,12 @@ struct Stack<T>: CustomStringConvertible {
     
     @discardableResult
     mutating func pop() -> T? {
+        if items.isEmpty { return nil }
         return self.items.removeFirst()
     }
     
     func peek() -> T? {
-        guard let firstItem = self.items.first else { return nil }
-        return firstItem
+        return self.items.first
     }
 }
 
