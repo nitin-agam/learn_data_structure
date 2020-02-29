@@ -4,5 +4,6 @@
         <page name='Singly LInked List'/>
         <page name='Stack (Array)'/>
         <page name='Stack (Without Array)'/>
+        <page name='Doubly Linked List'/>
     </pages>
 </playground>

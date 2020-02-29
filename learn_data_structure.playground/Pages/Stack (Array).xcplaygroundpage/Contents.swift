@@ -1,6 +1,6 @@
 
 
-struct Stack<T>: CustomStringConvertible {
+struct Stack<T>: CustomStringConvertible, TestProtocol {
     
     // array of items
     var items: [T] = []
