@@ -5,5 +5,9 @@
         <page name='Stack (Array)'/>
         <page name='Stack (Without Array)'/>
         <page name='Doubly Linked List'/>
+        <page name='Queue (With Array)'/>
+        <page name='Queue (With Linked List)'/>
+        <page name='Queue (Ring Buffer)'/>
+        <page name='Queue (Two Stack)'/>
     </pages>
 </playground>
